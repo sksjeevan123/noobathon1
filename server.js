@@ -9,7 +9,7 @@ const app = express();
 
 // Middleware
 app.use(cors({
-  origin: 'http://localhost:5000',
+  origin: 'https://sksjeevan123.github.io/noobathon1/',
   credentials: true
 }));
 app.use(express.json());
